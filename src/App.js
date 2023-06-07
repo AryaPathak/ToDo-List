@@ -1,9 +1,12 @@
+import React from "react";
+import Todo from "./Componants/ToDoReact/todo";
 
-
-function App() {
+const App = () => {
   return (
-    <>HELLO</>
+    <>
+      <Todo/>
+    </>
   );
-}
+};
 
 export default App;
